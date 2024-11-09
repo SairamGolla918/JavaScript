@@ -4,18 +4,18 @@ var accountPassword = "12345"
 accountCity = "Kurnool"
 let accountState
 
-//accountId = 2
+accountId = 2
 
-accountEmail = "bbp@gmail.com"
-accountPassword = "2h2"
-accountCity = "Hyd" 
+// accountEmail = "bbp@gmail.com"
+// accountPassword = "2h2"
+// accountCity = "Hyd" 
 
 console.log(accountId);
-console.log(accountEmail);
-console.log(accountPassword)
-console.log(accountCity);
+// console.log(accountEmail);
+// console.log(accountPassword)
+// console.log(accountCity);
 
-console.table([accountEmail,accountId,accountPassword,accountCity,accountState])
+// console.table([accountEmail,accountId,accountPassword,accountCity,accountState])
 
 
 

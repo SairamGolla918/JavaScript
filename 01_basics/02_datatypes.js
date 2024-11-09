@@ -16,4 +16,18 @@ console.log(typeof "Saiee")
 
 console.log(typeof null)
 
+//number => 2^53
+//bigint 
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => 
+// symbol => unique
+// 
+
+
+// object
+
+
+
 
