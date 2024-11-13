@@ -41,4 +41,32 @@ const myFun = function(){
     console.log("Hello world")
 }
 
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive) we get copy of data type --- Heap(Non-Primitive) refernce
+
+
+let myName = "SaieeYadav"
+
+let Name = myName
+
+Name = "saiee_rawm"
+
+console.log(myName)
+console.log(Name)
+
+let userOne = {
+    email: "saieeyadav@gmail.com",
+    upi: "saieeyadav@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "saieerawm@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
